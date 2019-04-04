@@ -1,0 +1,45 @@
+h1{
+	text-align: center;
+}
+
+.square{
+
+	height: 100px;
+	width: 100px;
+	border: solid 1px rgb(0,0,0) ;
+	background: #fbf617;
+	float: left;
+}
+
+.container{
+
+    width: 400px;
+  margin-right: 10px;
+}
+
+.board{
+	width: 20%;
+	margin:0px auto;
+}
+
+.playerSquare{
+    background: green;
+}
+
+.computerSquare{
+    background: red;
+}
+
+.stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color:black;
+}
+
+#message{
+    background: rgb(69, 208, 233);
+    text-align: left;
+    width: 30%;
+    float: right;
+}
